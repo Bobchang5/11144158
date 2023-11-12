@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdecef;
+}
+
+
+
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: #cba8b8;
+    color: white;
+}
+
+footer {
+    background-color: #cda8b8;
+    color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.card {
+    /*background-color: white;*/
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding: 10px;
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+}
+
+article {
+    float: left;
+    width: 65%;
+}
+
+aside {
+    float: right;
+    width: 32%;
+    height: 500px;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width:800px){
+    
+    article, 
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
+}
