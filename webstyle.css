@@ -69,6 +69,14 @@ main {
     border-radius: 10%;
 }
 
+.esimage2 {
+    width: 200px; /* 设置图像宽度为 100 像素 */
+    height: 200px; /* 自动计算图像高度，保持比例 */
+    margin-right: 30px; /* 设置图片右侧间隔为 20 像素*/ 
+    text-align: center;
+    border-radius: 20%;
+}
+
 article {
     float: left;
     width: 65%;
