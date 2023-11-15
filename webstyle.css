@@ -3,9 +3,8 @@
 }
 
 body {
-    background-color: #fdecef;
+    background-color: #f2e8cf;
 }
-
 
 
 
@@ -15,12 +14,12 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #cba8b8;
+    background-color: #f2e8cf;
     color: white;
 }
 
 footer {
-    background-color: #cda8b8;
+    background-color: #386641;
     color: #444;
     text-align: center;
     padding: 10px;
@@ -30,18 +29,50 @@ main {
     padding: 20px;
 }
 
+.headl {
+    font-size: 80px;
+    color: #386641;
+    text-align: center;
+    text-shadow: 10px 10px 15px;
+}
+
 .card {
-    /*background-color: white;*/
-    border-radius: 10px;
-    margin: 5px 5px;
-    padding: 10px;
-    background-image: url(image/card_img.jpg);
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding: 50px;
+    background-image: url(image/red.png);
     background-size: cover;
+}
+
+.head {
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding: 9px;
+    background-image: url(image/red.png);
+    background-size: cover;
+}
+
+.card2 {
+    width: 150%;
+    border-radius: 50px;
+    margin: 50px 20px;
+    padding: 50px;
+    background-image: url(image/red.png);
+    background-size: cover;
+}
+
+.esimage {
+    width: 456px; /* 设置图像宽度为 100 像素 */
+    height: 350px; /* 自动计算图像高度，保持比例 */
+    margin-right: 30px; /* 设置图片右侧间隔为 20 像素*/ 
+    text-align: center;
+    border-radius: 10%;
 }
 
 article {
     float: left;
     width: 65%;
+    color: aliceblue;
 }
 
 aside {

@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>個人網頁排版</title>
     <link rel="stylesheet" href="webstyle.css">
+
+    <style>
+      .empty-line {
+          margin-bottom: 90px; /* 根据需要调整底部间距 */
+      }
+
+      .center-text {
+        text-align: center; /* 水平居中 */
+    }
+
+  </style>
+
   </head>
   <body>
     <header>
-     
+      <p class="headl">- - - - - - Personal Website - - - - - -</p>
     </header>
 
     <nav>
@@ -19,21 +31,61 @@
     <main>
       <article>
         <section class="card">
-          <h2>標題1</h2>
-          <img src="https://picsum.photos/300/200?random=1" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            corporis adipisci rem, recusandae maiores repellendus tempore
-            laboriosam suscipit illum ad molestias quasi quae impedit, dicta
-            dolores fuga commodi reprehenderit error? Sunt in culpa qui officia
-            deserunt mollit anim id est laborum consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco.
-          </p>
+          <p style="font-size: 40px;">About Me - -</p>
+          <ol style="font-size: 25px;">
+            <li>  張博堯 BOB CHANG</li>
+            <li>  中原大學資管系</li>
+            <li>  桃園市青年籌備委員副主席</li>
+            <li>  國際扶輪社3501地區扶少團地區代表</li>
+            <li>  國際發明展/科展累積9項獎項</li>
+            <li>  中大壢中儀隊隊長</li>
+            <li>  三項專利擁有者</li>
+          </ol>
+        </section>
+        
+        <section class="card2">
+          <p style="font-size: 40px;">Experience/Skills - -</p>
+          <img class="esimage" src="image/c1.JPG" />
+          <img class="esimage" src="image/c2.jpg" />
+          <img class="esimage" src="image/c3.jpg" />
+
+          <div class="center-text">
+            <p style="font-size: 30px;">
+              - - - Competition - - -
+            </p>
+          </div>
+         
+
+          <div class="empty-line"></div> <!-- 插入空白行 -->
+
+          <img class="esimage" src="image/r5.JPG" />
+          <img class="esimage" src="image/r2.JPG" />
+          <img class="esimage" src="image/r3.JPG" />
+
+          <div class="center-text">
+            <p style="font-size: 30px;">
+              - - - Honor Guard - - -
+            </p>
+          </div>
+          
+
+          <div class="empty-line"></div> <!-- 插入空白行 -->
+
+          <img class="esimage" src="image/f11.png" />
+          <img class="esimage" src="image/f2.JPG" />
+          <img class="esimage" src="image/f3.JPG" />
+
+          <div class="center-text">
+            <p style="font-size: 30px;">
+              - - - Volunteer - - -
+            </p>
+          </div>
+          
+
         </section>
 
-        <section class="card">
-          <h2>標題2</h2>
+        <section class="card2">
+          <p style="font-size: 40px;">Connection - -</p>
           <img src="https://picsum.photos/300/200?random=2" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
@@ -45,18 +97,20 @@
             enim ad minim veniam, quis nostrud exercitation ullamco.
           </p>
         </section>
+       
+
       </article>
 
-      <aside class="card">
+      <aside class="head">
         <h2></h2>
-        <img src="https://picsum.photos/200/200?random" style="border-radius: 30%;"/>
+        <img src="image/head.jpg" style="border-radius: 30%;" height="450px"/>
         <p></p>
       </aside>
     </main>
     <div class="clearfix"></div><!-- 為了版面 -->
 
     <footer>
-      <h5>Copyrgiht @ 2022 All rights reserved</h5>
+      <h5 style="color: aliceblue;">Copyrgiht @ 2023 All rights reserved </h5>
     </footer>
   </body>
 </html>
